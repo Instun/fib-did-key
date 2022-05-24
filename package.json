@@ -1,0 +1,10 @@
+{
+  "name": "fib-did-key",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "repository": "",
+  "keywords": "",
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,62 @@
+{
+  "type": "sm2",
+  "id": "did:key:zEPJcWxWVMvrRvSLt4WsPekiqt89YVFRYxSkHbNRjaPfZWTPs",
+  "secure": "cI0Szupw3excG1UEmAiJop4TFf4Sbia_eNYFFQlDWd0",
+  "application/did+json": {
+    "didDocument": {
+      "@context": [
+        "https://www.w3.org/ns/did/v1",
+        "https://w3id.org/security/suites/jws-2020/v1"
+      ],
+      "id": "did:key:zEPJcWxWVMvrRvSLt4WsPekiqt89YVFRYxSkHbNRjaPfZWTPs",
+      "verificationMethod": [
+        {
+          "id": "did:key:zEPJcWxWVMvrRvSLt4WsPekiqt89YVFRYxSkHbNRjaPfZWTPs#zEPJcWxWVMvrRvSLt4WsPekiqt89YVFRYxSkHbNRjaPfZWTPs",
+          "type": "JsonWebKey2020",
+          "controller": "did:key:zEPJcWxWVMvrRvSLt4WsPekiqt89YVFRYxSkHbNRjaPfZWTPs",
+          "publicKeyJwk": {
+            "kty": "EC",
+            "crv": "SM2",
+            "x": "4_1l5yuoHlvhmCsYzfYCLJXFU8-uv5464mWmC-tdyx4",
+            "y": "mJoxCEVBRMrgL4B544mhN85kpjXkwXY_HEb_SltPWh0"
+          }
+        }
+      ],
+      "assertionMethod": [
+        "did:key:zEPJcWxWVMvrRvSLt4WsPekiqt89YVFRYxSkHbNRjaPfZWTPs#zEPJcWxWVMvrRvSLt4WsPekiqt89YVFRYxSkHbNRjaPfZWTPs"
+      ],
+      "authentication": [
+        "did:key:zEPJcWxWVMvrRvSLt4WsPekiqt89YVFRYxSkHbNRjaPfZWTPs#zEPJcWxWVMvrRvSLt4WsPekiqt89YVFRYxSkHbNRjaPfZWTPs"
+      ],
+      "capabilityInvocation": [
+        "did:key:zEPJcWxWVMvrRvSLt4WsPekiqt89YVFRYxSkHbNRjaPfZWTPs#zEPJcWxWVMvrRvSLt4WsPekiqt89YVFRYxSkHbNRjaPfZWTPs"
+      ],
+      "capabilityDelegation": [
+        "did:key:zEPJcWxWVMvrRvSLt4WsPekiqt89YVFRYxSkHbNRjaPfZWTPs#zEPJcWxWVMvrRvSLt4WsPekiqt89YVFRYxSkHbNRjaPfZWTPs"
+      ],
+      "keyAgreement": [
+        "did:key:zEPJcWxWVMvrRvSLt4WsPekiqt89YVFRYxSkHbNRjaPfZWTPs#zEPJcWxWVMvrRvSLt4WsPekiqt89YVFRYxSkHbNRjaPfZWTPs"
+      ]
+    },
+    "keys": [
+      {
+        "id": "did:key:zEPJcWxWVMvrRvSLt4WsPekiqt89YVFRYxSkHbNRjaPfZWTPs#zEPJcWxWVMvrRvSLt4WsPekiqt89YVFRYxSkHbNRjaPfZWTPs",
+        "type": "JsonWebKey2020",
+        "controller": "did:key:zEPJcWxWVMvrRvSLt4WsPekiqt89YVFRYxSkHbNRjaPfZWTPs",
+        "publicKeyJwk": {
+          "kty": "EC",
+          "crv": "SM2",
+          "x": "4_1l5yuoHlvhmCsYzfYCLJXFU8-uv5464mWmC-tdyx4",
+          "y": "mJoxCEVBRMrgL4B544mhN85kpjXkwXY_HEb_SltPWh0"
+        },
+        "privateKeyJwk": {
+          "kty": "EC",
+          "crv": "SM2",
+          "x": "4_1l5yuoHlvhmCsYzfYCLJXFU8-uv5464mWmC-tdyx4",
+          "y": "mJoxCEVBRMrgL4B544mhN85kpjXkwXY_HEb_SltPWh0",
+          "d": "cI0Szupw3excG1UEmAiJop4TFf4Sbia_eNYFFQlDWd0"
+        }
+      }
+    ]
+  }
+}
