@@ -32,6 +32,20 @@ describe('did-key', () => {
                     assert.deepEqual(d["application/did+json"].keys, r.keys);
                 });
             });
+
+            if (k !== 'x25519')
+                it('sign/verify', () => {
+                    data.forEach(d => {
+                        var key = did_key.generate(d.type, {
+                            secure: d.secure
+                        }).keys[0];
+
+                        var sig = did_key.sign(Buffer.from("hello world."), key.privateKeyJwk);
+                        var verify = did_key.verify(Buffer.from("hello world."), sig, key.publicKeyJwk);
+
+                        assert.ok(verify);
+                    });
+                });
         });
 });
 
