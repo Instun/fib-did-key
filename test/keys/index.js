@@ -54,5 +54,5 @@ module.exports = {
   secp521r1,
   secp256k1,
   sm2,
-  bls12381,
+  // bls12381,
 };
